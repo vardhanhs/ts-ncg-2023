@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>World Bank App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <h1>World Bank App</h1>
+  <h2>Select Country</h2>
+  <select id="country-select">
+    <!-- Populate options using local storage (bonus) or fetch from API -->
+  </select>
+
+  <h2>Select Indicator</h2>
+  <select id="indicator-select">
+    <!-- Populate options using local storage (bonus) or fetch from API -->
+  </select>
+
+  <h2>Select Date Range</h2>
+  <input type="date" id="start-date">
+  <input type="date" id="end-date">
+
+  <button id="load-chart">Load Chart</button>
+
+  <div id="chart-container">
+    <canvas id="chart"></canvas>
+  </div>
+
+  <h2>Saved Views</h2>
+  <table id="saved-views">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Country</th>
+        <th>Indicator</th>
+        <th>Chart Type</th>
+        <th>Date Range</th>
+        <th>Created Timestamp</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Populate rows using saved views from local storage (bonus) or fetch from API -->
+    </tbody>
+  </table>
+</body>
+</html>

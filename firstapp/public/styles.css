@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  #chart-container {
+    margin-top: 20px;
+  }
+  
+  #saved-views {
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  #saved-views th, #saved-views td {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #saved-views th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  #saved-views td:last-child {
+    text-align: center;
+  }
+  
